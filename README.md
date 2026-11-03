@@ -6,9 +6,12 @@ This dataset provides benchmark vibration data for a truss bridge model under tw
 ## Truss Bridge Model
 
 A laboratory-scale steel truss bridge model was constructed for vibration testing. The bridge consists of a **6.0 m main span** and two **0.7 m approach spans**. All primary structural members are made of Q235 steel. The upper and lower chords have rectangular cross-sections of 150 mm × 5 mm, while the intermediate members have circular cross-sections with a diameter of 10 mm. The main span is simply supported, and the structural members are connected through bolted joints.
-
-<img src="FIG/Fig1.jpg" width="600" alt="Truss Bridge Model">
-<img src="FIG/Fig2.png" width="600" alt="Truss Bridge Model">
+<p align="center">
+  <img src="FIG/Fig1.jpg" width="650" alt="Truss Bridge Model">
+</p>
+<p align="center">
+  <img src="FIG/Fig2.png" width="600" alt="Truss Bridge Model">
+</p>
 <p align="center">
   Fig. 1. The truss bridge model.
 </p>
@@ -18,8 +21,9 @@ A laboratory-scale steel truss bridge model was constructed for vibration testin
 The bridge model is designed with easily detachable vertical members, allowing different anomaly locations and severities to be simulated by replacing members with different cross-sectional sizes. The structural anomaly cases are simulated by reducing the cross-sectional areas of selected vertical members. The easily detachable vertical members are designed with four different sizes, and their corresponding diameters and cross-sectional reduction ratios are illustrated in Fig. 3.
 
 By sequentially replacing the vertical members at the five locations with the three reduced-section members, **15 damaged conditions (Cases 1–15)** are generated, together with one undamaged reference condition (Case 0).
-
-<img src="FIG/Fig3.png" width="600" alt="Truss Bridge Model">
+<p align="center">
+  <img src="FIG/Fig3.png" width="400" alt="Truss Bridge Model">
+</p>
 <p align="center">
   Fig. 2. The detachable vertical members.
 </p>
@@ -29,7 +33,9 @@ Two types of dynamic excitation are employed in the experiments:
 
 ## Data Acquisition
 The vibration responses are measured using **12 accelerometers and 5 displacement transducers**, with a sampling frequency of **512 Hz**. The sensor placement is shown in Fig. 3. For shaker-induced tests, acceleration responses are recorded for 512 s, while vehicle-induced tests record both acceleration and displacement responses for 40 s.
-<img src="FIG/Fig4.png" width="600" alt="Truss Bridge Model">
+<p align="center">
+  <img src="FIG/Fig4.png" width="650" alt="Truss Bridge Model">
+</p>
 <p align="center">
   Fig. 4. The detachable vertical members.
 </p>
