@@ -9,8 +9,8 @@ The complete dataset is publicly available through the following platforms:
 
 | Platform | Download |
 |:---|:---|
-| 🔵 **Baidu Netdisk** | [Download Dataset](YOUR_BAIDU_LINK) |
-| 🟢 **Google Drive** | [Download Dataset](YOUR_GOOGLE_DRIVE_LINK) |
+|  **Baidu Netdisk** | [Download Dataset](YOUR_BAIDU_LINK) |
+|  **Google Drive** | [Download Dataset](YOUR_GOOGLE_DRIVE_LINK) |
 
 ## 📚 Citation
 
