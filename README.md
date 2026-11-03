@@ -5,7 +5,7 @@ This dataset provides benchmark vibration data for a truss bridge model under tw
 
 ## Truss Bridge Model
 
-A laboratory-scale steel truss bridge model was constructed for vibration testing. The bridge consists of a **6.0 m main span** and two **0.7 m approach spans**. All primary structural members are made of Q235 steel. The upper and lower chords have rectangular cross-sections of 150 mm × 5 mm, while the intermediate members have circular cross-sections with a diameter of 10 mm. The main span is simply supported, and the structural members are connected through bolted joints.
+The bridge model consists of a **6.0 m main span** and two **0.7 m approach spans**. All primary structural members are made of Q235 steel. The upper and lower chords have rectangular cross-sections of 150 mm × 5 mm, while the intermediate members have circular cross-sections with a diameter of 10 mm. The main span is simply supported, and the structural members are connected through bolted joints.
 <p align="center">
   <img src="FIG/Fig1.jpg" width="650" alt="Truss Bridge Model">
 </p>
