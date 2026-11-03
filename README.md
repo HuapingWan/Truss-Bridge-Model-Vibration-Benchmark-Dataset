@@ -35,7 +35,7 @@ Two types of dynamic excitation are employed in the experiments:
 ## Data Acquisition
 The vibration responses are measured using **12 accelerometers and 5 displacement transducers**, with a sampling frequency of **512 Hz**. The sensor placement is shown in Fig. 3. For shaker-induced tests, acceleration responses are recorded for 512 s, while vehicle-induced tests record both acceleration and displacement responses for 40 s.
 <p align="center">
-  <img src="FIG/Fig4.png" width="650" alt="Truss Bridge Model">
+  <img src="FIG/Fig4.png" width="750" alt="Truss Bridge Model">
 </p>
 <p align="center">
   Fig. 4. The detachable vertical members.
