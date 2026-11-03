@@ -20,7 +20,7 @@ The bridge model consists of a **6.0 m main span** and two **0.7 m approach span
 
 The bridge model is designed with easily detachable vertical members, allowing different anomaly locations and severities to be simulated by replacing members with different cross-sectional sizes. The structural anomaly cases are simulated by reducing the cross-sectional areas of selected vertical members. The easily detachable vertical members are designed with four different sizes, and their corresponding diameters and cross-sectional reduction ratios are illustrated in Fig. 3.
 
-By sequentially replacing the vertical members at the five locations with the three reduced-section members, **15 damaged conditions (Cases 1–15)** are generated, together with one undamaged reference condition (Case 0).
+By sequentially replacing the vertical members at the five locations with the three reduced-section members, **15 damaged conditions (Cases 1–15)** are generated, together with **1 undamaged reference condition (Case 0)**.
 <p align="center">
   <img src="FIG/Fig3.png" width="400" alt="Truss Bridge Model">
 </p>
