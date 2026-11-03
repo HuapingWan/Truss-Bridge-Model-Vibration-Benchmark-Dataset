@@ -7,17 +7,17 @@ This dataset provides benchmark vibration data for a truss bridge model under tw
 
 A laboratory-scale steel truss bridge model was constructed for vibration testing. The bridge consists of a **6.0 m main span** and two **0.7 m approach spans**. All primary structural members are made of Q235 steel. The upper and lower chords have rectangular cross-sections of 150 mm × 5 mm, while the intermediate members have circular cross-sections with a diameter of 10 mm. The main span is simply supported, and the structural members are connected through bolted joints.
 
-![Truss Bridge Model](FIG/Fig1.jpg)
-![Truss Bridge Model](FIG/Fig2.png)
+<img src="FIG/Fig1.jpg" width="600" alt="Truss Bridge Model">
+<img src="FIG/Fig2.png" width="600" alt="Truss Bridge Model">
 *Fig. 1. The truss bridge model.*
 
-## 🔧 Structural Damage Simulation
+## Test scenarios
 
-Structural damage is simulated by **replacing detachable vertical members with members of reduced cross-sectional areas**. Five vertical members along the main span are selected as potential damage locations, labeled 1–5 from left to right.
-
-For each damage scenario, **only one vertical member is replaced**, while the remaining members retain their original dimensions. The original member has a diameter of **10 mm**, and three replacement members with diameters of **8.7 mm, 7.1 mm, and 5.0 mm** are used to simulate cross-sectional area reductions of **25%, 50%, and 75%**, respectively.
+The bridge model is designed with easily detachable vertical members, allowing different anomaly locations and severities to be simulated by replacing members with different cross-sectional sizes. The structural anomaly cases are simulated by reducing the cross-sectional areas of selected vertical members. The easily detachable vertical members are designed with four different sizes, and their corresponding diameters and cross-sectional reduction ratios are illustrated in Fig. 3.
 
 By sequentially replacing the vertical members at the five locations with the three reduced-section members, **15 damaged conditions (Cases 1–15)** are generated, together with one undamaged reference condition (Case 0).
+
+![Truss Bridge Model](FIG/Fig3.png)
 
 ## 📥 Dataset Download
 
