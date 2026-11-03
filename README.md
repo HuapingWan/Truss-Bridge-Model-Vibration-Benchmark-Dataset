@@ -27,6 +27,7 @@ By sequentially replacing the vertical members at the five locations with the th
 <p align="center">
   Fig. 2. The detachable vertical members.
 </p>
+
 Two types of dynamic excitation are employed in the experiments:
 - **Shaker-induced excitation:** White-noise excitation is applied using an MB Dynamics Modal 50 shaker at five designated locations along the main span.
 - **Vehicle-induced excitation:** A scaled two-axle vehicle travels across the bridge under three different vehicle weights (**9.65 kg, 14.65 kg, and 19.65 kg**) to simulate moving loads.
