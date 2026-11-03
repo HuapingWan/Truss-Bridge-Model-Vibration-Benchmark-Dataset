@@ -2,7 +2,9 @@
 This dataset provides benchmark vibration data for a truss bridge model under two types of excitation. It can be used as a benchmark dataset for validating methods in moving load identification, modal identification, structural model updating, and structural anomaly detection, among others.
 
 The dataset is now publicly available for download at:
+
 Baidu Netdisk: https
+
 Google Drive: https
 
 If you use this dataset in your research, please cite the following paper:
