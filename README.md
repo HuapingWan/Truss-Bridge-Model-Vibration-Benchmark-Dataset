@@ -43,16 +43,12 @@ The complete dataset is publicly available through the following platforms:
 |  **Baidu Netdisk** | [Download Dataset](https://pan.baidu.com/s/1VPeSs4PSzYhjfpAPyXlW-Q?pwd=u7tg) |
 |  **Google Drive** | [Download Dataset](https://drive.google.com/drive/folders/1I5ez2_0RFDQFCa35PJ9AjpGVECRVmFLx?usp=sharing) |
 
-## 📚 Citation
+## 📚 Related Publications
 
 For more detailed information about the benchmark dataset usage and related structural anomaly detection methods, readers may refer to the following publications:
 
-**1. Benchmark Dataset and Validation Study**
-
-Hua-Ping Wan, Yi-Kai Zhu, Can Wang, Michael D. Todd. **Multiscale pattern learning for vibration-based structural anomaly detection: A benchmark dataset and validation study.** *Structural Health Monitoring*. 2026.
-
+[1] Hua-Ping Wan, Yi-Kai Zhu, Can Wang, Michael D. Todd. **Multiscale pattern learning for vibration-based structural anomaly detection: A benchmark dataset and validation study.** *Structural Health Monitoring*. 2026.
 [https://doi.org/10.1177/14759217261499477](https://doi.org/10.1177/14759217261499477)
 
-Hua-Ping Wan, Yi-Kai Zhu, Yaozhi Luo, Michael D. Todd. **Unsupervised deep learning approach for structural anomaly detection using probabilistic features.** *Structural Health Monitoring*. 2025;24(1):3–33.
-
+[2] Hua-Ping Wan, Yi-Kai Zhu, Yaozhi Luo, Michael D. Todd. **Unsupervised deep learning approach for structural anomaly detection using probabilistic features.** *Structural Health Monitoring*. 2025;24(1):3–33.
 [https://doi.org/10.1177/14759217241226804](https://doi.org/10.1177/14759217241226804)
