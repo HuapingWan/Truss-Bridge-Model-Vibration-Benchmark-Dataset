@@ -10,7 +10,7 @@ A laboratory-scale steel truss bridge model was constructed for vibration testin
 <img src="FIG/Fig1.jpg" width="600" alt="Truss Bridge Model">
 <img src="FIG/Fig2.png" width="600" alt="Truss Bridge Model">
 <p align="center">
-  <em>Fig. 1. The truss bridge model.</em>
+  Fig. 1. The truss bridge model.
 </p>
 
 ## Test scenarios
@@ -21,7 +21,17 @@ By sequentially replacing the vertical members at the five locations with the th
 
 <img src="FIG/Fig3.png" width="600" alt="Truss Bridge Model">
 <p align="center">
-  <em>Fig. 2. The detachable vertical members.</em>
+  Fig. 2. The detachable vertical members.
+</p>
+Two types of dynamic excitation are employed in the experiments:
+- **Shaker-induced excitation:** White-noise excitation is applied using an MB Dynamics Modal 50 shaker at five designated locations along the main span.
+- **Vehicle-induced excitation:** A scaled two-axle vehicle travels across the bridge under three different vehicle weights (**9.65 kg, 14.65 kg, and 19.65 kg**) to simulate moving loads.
+
+## Data Acquisition
+The vibration responses are measured using **12 accelerometers and 5 displacement transducers**, with a sampling frequency of **512 Hz**. The sensor placement is shown in Fig. 3. For shaker-induced tests, acceleration responses are recorded for 512 s, while vehicle-induced tests record both acceleration and displacement responses for 40 s.
+<img src="FIG/Fig4.png" width="600" alt="Truss Bridge Model">
+<p align="center">
+  Fig. 4. The detachable vertical members.
 </p>
 
 ## 📥 Dataset Download
@@ -35,28 +45,14 @@ The complete dataset is publicly available through the following platforms:
 
 ## 📚 Citation
 
-If you use this dataset in your research, **please cite the following publication**:
+For more detailed information about the benchmark dataset usage and related structural anomaly detection methods, readers may refer to the following publications:
 
-> Hua-Ping Wan, Yi-Kai Zhu, Can Wang, and Michael D. Todd.  
-> **Multiscale pattern learning for vibration-based structural anomaly detection: A benchmark dataset and validation study.**  *Structural Health Monitoring*, 2026. DOI: [10.1177/14759217261499477](https://doi.org/10.1177/14759217261499477)
+**1. Benchmark Dataset and Validation Study**
 
+Hua-Ping Wan, Yi-Kai Zhu, Can Wang, Michael D. Todd. **Multiscale pattern learning for vibration-based structural anomaly detection: A benchmark dataset and validation study.** *Structural Health Monitoring*. 2026.
 
+[https://doi.org/10.1177/14759217261499477](https://doi.org/10.1177/14759217261499477)
 
-## 🔧 Structural Damage Simulation
+Hua-Ping Wan, Yi-Kai Zhu, Yaozhi Luo, Michael D. Todd. **Unsupervised deep learning approach for structural anomaly detection using probabilistic features.** *Structural Health Monitoring*. 2025;24(1):3–33.
 
-Structural damage is simulated by **replacing detachable vertical members with members of reduced cross-sectional areas**. Five vertical members along the main span are selected as potential damage locations, labeled 1–5 from left to right.
-
-For each damage scenario, **only one vertical member is replaced**, while the remaining members retain their original dimensions. The original member has a diameter of **10 mm**, and three replacement members with diameters of **8.7 mm, 7.1 mm, and 5.0 mm** are used to simulate cross-sectional area reductions of **25%, 50%, and 75%**, respectively.
-
-By sequentially replacing the vertical members at the five locations with the three reduced-section members, **15 damaged conditions (Cases 1–15)** are generated, together with one undamaged reference condition (Case 0).
-
-## 📊 Excitation and Data Acquisition
-
-Two types of dynamic excitation are employed in the experiments:
-
-- **Shaker-induced excitation:** White-noise excitation is applied using an MB Dynamics Modal 50 shaker at five designated locations along the main span.
-- **Vehicle-induced excitation:** A scaled two-axle vehicle travels across the bridge under three different vehicle weights (**9.65 kg, 14.65 kg, and 19.65 kg**) to simulate moving loads.
-
-The vibration responses are measured using **12 accelerometers and 5 displacement transducers**, with a sampling frequency of **512 Hz**. For shaker-induced tests, acceleration responses are recorded for 512 s, while vehicle-induced tests record both acceleration and displacement responses for 40 s.
-
-All acquired data are stored in MATLAB (`.mat`) format and organized according to structural conditions and excitation configurations.
+[https://doi.org/10.1177/14759217241226804](https://doi.org/10.1177/14759217241226804)
