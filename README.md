@@ -3,10 +3,9 @@ This dataset provides benchmark vibration data for a truss bridge model under tw
 
 The dataset is now publicly available for download at:
 
-**Baidu Netdisk: https
+Baidu Netdisk: https
 
-Google Drive: https**
-
+Google Drive: https
 
 
 If you use this dataset in your research, please cite the following paper:
