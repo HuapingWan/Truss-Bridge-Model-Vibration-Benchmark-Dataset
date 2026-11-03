@@ -9,7 +9,9 @@ A laboratory-scale steel truss bridge model was constructed for vibration testin
 
 <img src="FIG/Fig1.jpg" width="600" alt="Truss Bridge Model">
 <img src="FIG/Fig2.png" width="600" alt="Truss Bridge Model">
-*Fig. 1. The truss bridge model.*
+<p align="center">
+  <em>Fig. 1. The truss bridge model.</em>
+</p>
 
 ## Test scenarios
 
@@ -17,7 +19,10 @@ The bridge model is designed with easily detachable vertical members, allowing d
 
 By sequentially replacing the vertical members at the five locations with the three reduced-section members, **15 damaged conditions (Cases 1–15)** are generated, together with one undamaged reference condition (Case 0).
 
-![Truss Bridge Model](FIG/Fig3.png)
+<img src="FIG/Fig3.png" width="600" alt="Truss Bridge Model">
+<p align="center">
+  <em>Fig. 2. The detachable vertical members.</em>
+</p>
 
 ## 📥 Dataset Download
 
